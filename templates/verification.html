@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>verification</title>
+  </head>
+  <body>
+    <h1>Enter your OTP</h1>
+    <form method="POST">
+      <div>
+        <label for="otp">OTP:</label>
+        <input type="text" id="otp" name="otp" required />
+      </div>
+      <div>
+        <button type="submit">verify OTP</button>
+      </div>
+    </form>
+    <a href="{{url_for('login')}}">back to login</a>
+  </body>
+</html>
