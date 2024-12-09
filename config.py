@@ -15,3 +15,4 @@ class Config:
     PERMANENT_SESSION_LIFETIME = timedelta(days=15)
     SQLALCHEMY_DATABASE_URI = 'sqlite:///users.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    TEMPLATES_AUTO_RELOAD = True
